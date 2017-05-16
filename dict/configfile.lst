@@ -22,3 +22,10 @@
 /include/config.inc.php
 /phpsso_server/caches/configs/database.php
 /phpsso_server/caches/configs/system.php
+database.inc
+common.inc
+db.inc
+connect.inc
+conn.inc
+sql.inc
+debug.inc

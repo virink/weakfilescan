@@ -5,7 +5,13 @@
 {re=exrex:(wwwroot|www|htdocs|web|ww|w|website|backup|back|site|http|admin|default|webroot|index|main|global|include|includes|common)(%BAK_EXT%)}$
 .svn/entries
 .git/config
+.git/HEAD
+.git/index
+.git/refs/heads
+.hg/dirstate
+.hg/requires
 .DS_Store
+.ds_store
 activity.%EXT%
 add.%EXT%
 admin.html
@@ -17,6 +23,7 @@ cache.%EXT%
 call.%EXT%
 callback.%EXT%
 check.%EXT%
+cmd.%EXT%
 combine.%EXT%
 common.%EXT%
 communicate.%EXT%
@@ -55,6 +62,7 @@ index.%EXT%~
 index1.%EXT%
 info.%EXT%
 interface.%EXT%
+js.%EXT%
 json.%EXT%
 jsonp.%EXT%
 key.%EXT%
@@ -93,6 +101,7 @@ search.%EXT%
 serverinfo.%EXT%
 setting.%EXT%
 single.%EXT%
+shell.%EXT%
 stat.%EXT%
 status.%EXT%
 style.%EXT%
@@ -115,14 +124,8 @@ userinfo.%EXT%
 version.jsp
 webadmin.%EXT%
 weixin.%EXT%
+webshell.%EXT%
 wiki.%EXT%
 ws.%EXT%
 wx.%EXT%
 xmlrpc.%EXT%
-database.inc
-common.inc
-db.inc
-connect.inc
-conn.inc
-sql.inc
-debug.inc
